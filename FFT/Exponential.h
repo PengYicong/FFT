@@ -1,6 +1,5 @@
 #pragma once
 #include <cmath>
-#include <stdio.h>
 #include <iostream>
 #include "Complex.h"
 
@@ -13,7 +12,12 @@ Complex ComplexExponential(double radius)
 	return Complex(realtemp, imagetemp);
 }
 
-Complex* FFT(double* data)
-{
+//Complex* FFT_Non_Recur(double* data, int Length)
+//{
+//	Complex* Xk = new Complex[Length];
+//	for (int i = 0; i < Length; i++)
+//	{
+//
+//	}
+//}
 
-}
