@@ -11,6 +11,7 @@ private:
 public:
 	TDFFT(double* data, int size);
 	~TDFFT();
+	Complex ComplexExponential(double radius);
 	Complex* FFT_Iter();
 	
 };

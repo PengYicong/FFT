@@ -24,9 +24,6 @@
     <ClInclude Include="Complex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Exponential.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="TDFFT.h">
       <Filter>Header Files</Filter>
     </ClInclude>
